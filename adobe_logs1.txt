@@ -1,0 +1,2396 @@
+flipper: FlipperClient::addPlugin Inspector
+flipper: FlipperClient::addPlugin Preferences
+flipper: FlipperClient::addPlugin React
+flipper: FlipperClient::addPlugin Network
+2021-05-17 14:25:47.861068+0530 ACPCoreIOSJS[89507:1871562] [] nw_protocol_get_quic_image_block_invoke dlopen libquic failed
+2021-05-17 14:25:47.881727+0530 ACPCoreIOSJS[89507:1869703] [native] Running application ACPCoreIOSJS ({
+    initialProps =     {
+    };
+    rootTag = 1;
+})
+2021-05-17 14:25:48.506709+0530 ACPCoreIOSJS[89507:1871564] [connection] nw_socket_handle_socket_event [C5.1:1] Socket SO_ERROR [61: Connection refused]
+2021-05-17 14:25:48.508419+0530 ACPCoreIOSJS[89507:1871603] [javascript] Running "ACPCoreIOSJS" with {"rootTag":1,"initialProps":{}}
+2021-05-17 14:25:48.511002+0530 ACPCoreIOSJS[89507:1871564] [connection] nw_socket_handle_socket_event [C5.2:1] Socket SO_ERROR [61: Connection refused]
+2021-05-17 14:25:48.512671+0530 ACPCoreIOSJS[89507:1871558] [connection] nw_connection_get_connected_socket [C5] Client called nw_connection_get_connected_socket on unconnected nw_connection
+2021-05-17 14:25:48.513183+0530 ACPCoreIOSJS[89507:1871558] TCP Conn 0x600000770210 Failed : error 0:61 [61]
+2021-05-17 14:25:48.621889+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK DEBUG <TaskExecutor>]: System info services are required to set thread name
+2021-05-17 14:25:48.622181+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #1 - {
+    class: "Event",
+    name: "Configure with AppId",
+    uniqueIdentifier: "B5187D12-0420-419D-81CF-18144D34084B",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.configuration",
+    pair_id: "",
+    response_pair_id: "4",
+    event_number: 1,
+    timestamp: "1621241748620 ms",
+    data: {
+        "config.appId" : "77d981f695af/d25999468a17/launch-b5aca324a9ab-development"
+    }
+}
+2021-05-17 14:25:48.622716+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Registering extension 'Identity' with version '2.5.1'
+2021-05-17 14:25:48.622841+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #1 (com.adobe.eventType.configuration) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:25:48.623263+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Handling configuration event, number: 1
+2021-05-17 14:25:48.623319+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK DEBUG <TaskExecutor>]: System info services are required to set thread name
+2021-05-17 14:25:48.623750+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Registering extension 'Lifecycle' with version '2.2.1'
+2021-05-17 14:25:48.623754+0530 ACPCoreIOSJS[89507:1871651] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Processing ConfigureWithAppID event. AppID -(77d981f695af/d25999468a17/launch-b5aca324a9ab-development)
+2021-05-17 14:25:48.624140+0530 ACPCoreIOSJS[89507:1871651] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Saving appID to persistence - 77d981f695af/d25999468a17/launch-b5aca324a9ab-development
+2021-05-17 14:25:48.624212+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK DEBUG <TaskExecutor>]: System info services are required to set thread name
+2021-05-17 14:25:48.624245+0530 ACPCoreIOSJS[89507:1871654] [AdobeExperienceSDK TRACE <com.adobe.module.lifecycle>]: virtual void AdobeMarketingMobile::Lifecycle::OnRegistered()
+2021-05-17 14:25:48.624647+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Registering extension 'Signal' with version '2.2.0'
+2021-05-17 14:25:48.624845+0530 ACPCoreIOSJS[89507:1871653] [AdobeExperienceSDK TRACE <com.adobe.module.identity>]: LoadVariablesFromPersistentData : Successfully loaded the Identity data from persistence.
+2021-05-17 14:25:48.626732+0530 ACPCoreIOSJS[89507:1871656] [AdobeExperienceSDK TRACE <DatabaseService>]: <ADBMobileSignals.sqlite> opened successfully
+2021-05-17 14:25:48.628135+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #2 - {
+    class: "Event",
+    name: "EventHub",
+    uniqueIdentifier: "0BB24EC7-8FA6-4318-9DCC-9647E576148E",
+    source: "com.adobe.eventSource.booted",
+    type: "com.adobe.eventType.hub",
+    pair_id: "",
+    response_pair_id: "5",
+    event_number: 2,
+    timestamp: "1621241748627 ms",
+    data: 
+}
+2021-05-17 14:25:48.631902+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #2 (com.adobe.eventType.hub) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:25:48.632809+0530 ACPCoreIOSJS[89507:1871654] [AdobeExperienceSDK TRACE <com.adobe.module.lifecycle>]: Adding core data to Lifecycle data
+2021-05-17 14:25:48.632812+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Last known rules url loaded from persistence - https://assets.adobedtm.com/77d981f695af/d25999468a17/launch-b5aca324a9ab-development-rules.zip
+2021-05-17 14:25:48.634021+0530 ACPCoreIOSJS[89507:1871657] [AdobeExperienceSDK TRACE <DatabaseService>]: <ADBMobileIdentity.sqlite> opened successfully
+2021-05-17 14:25:48.637186+0530 ACPCoreIOSJS[89507:1871657] [AdobeExperienceSDK DEBUG <com.adobe.module.identity>]: UpdatePrivacyStatus : Privacy Status was opt-unknown, so queued Identity hits were held in the database.
+2021-05-17 14:25:48.637721+0530 ACPCoreIOSJS[89507:1871657] [AdobeExperienceSDK TRACE <com.adobe.module.identity>]: ProcessEventQueue : Unable to process the Identity event because the  configuration was pending.
+2021-05-17 14:25:48.638455+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Processing boot configuration event, number: 2
+2021-05-17 14:25:48.638480+0530 ACPCoreIOSJS[89507:1871657] [AdobeExperienceSDK TRACE <com.adobe.module.identity>]: Bootup : Added an Identity force sync event on boot.
+2021-05-17 14:25:48.639060+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Loading overridden configuration from persistence -
+2021-05-17 14:25:48.639836+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: AppID loaded from persistence - 77d981f695af/d25999468a17/launch-b5aca324a9ab-development
+2021-05-17 14:25:48.640339+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Valid AppID is retrieved from persistence - 77d981f695af/d25999468a17/launch-b5aca324a9ab-development
+2021-05-17 14:25:48.642982+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Cached configuration loaded
+2021-05-17 14:25:48.643713+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Loading overridden configuration from persistence -
+2021-05-17 14:25:48.644920+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: New shared state data for 'com.adobe.module.configuration' at version '2': 
+{
+    "analytics.aamForwardingEnabled" : 0,
+    "analytics.backdatePreviousSessionInfo" : 1,
+    "analytics.batchLimit" : 0.000000,
+    "analytics.launchHitDelay" : 0.000000,
+    "analytics.offlineEnabled" : 1,
+    "analytics.rsids" : "wlppulseappdev",
+    "analytics.server" : "wellpoint.sc.omtrdc.net",
+    "build.environment" : "dev",
+    "experienceCloud.org" : "95CF659E533DE4C90A490D4D@AdobeOrg",
+    "global.privacy" : "optedin",
+    "lifecycle.sessionTimeout" : 300.000000,
+    "property.id" : "PR054281e1a8e74be49ae074a01ac0f1dd",
+    "rules.url" : "https://assets.adobedtm.com/77d981f695af/d25999468a17/launch-b5aca324a9ab-development-rules.zip"
+}
+2021-05-17 14:25:48.645668+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Shared state has been created for event #2 with data: {
+    "analytics.aamForwardingEnabled" : 0,
+    "analytics.backdatePreviousSessionInfo" : 1,
+    "analytics.batchLimit" : 0.000000,
+    "analytics.launchHitDelay" : 0.000000,
+    "analytics.offlineEnabled" : 1,
+    "analytics.rsids" : "wlppulseappdev",
+    "analytics.server" : "wellpoint.sc.omtrdc.net",
+    "build.environment" : "dev",
+    "experienceCloud.org" : "95CF659E533DE4C90A490D4D@AdobeOrg",
+    "global.privacy" : "optedin",
+    "lifecycle.sessionTimeout" : 300.000000,
+    "property.id" : "PR054281e1a8e74be49ae074a01ac0f1dd",
+    "rules.url" : "https://assets.adobedtm.com/77d981f695af/d25999468a17/launch-b5aca324a9ab-development-rules.zip"
+}
+2021-05-17 14:25:48.647051+0530 ACPCoreIOSJS[89507:1871564] [Client] Updating selectors failed with: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service on pid 0 named com.apple.commcenter.coretelephony.xpc was invalidated." UserInfo={NSDebugDescription=The connection to service on pid 0 named com.apple.commcenter.coretelephony.xpc was invalidated.}
+2021-05-17 14:25:48.647776+0530 ACPCoreIOSJS[89507:1871564] [Client] Updating selectors after delegate addition failed with: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service on pid 0 named com.apple.commcenter.coretelephony.xpc was invalidated." UserInfo={NSDebugDescription=The connection to service on pid 0 named com.apple.commcenter.coretelephony.xpc was invalidated.}
+2021-05-17 14:25:48.648956+0530 ACPCoreIOSJS[89507:1871654] [Client] Synchronous remote object proxy returned error: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service on pid 0 named com.apple.commcenter.coretelephony.xpc was invalidated." UserInfo={NSDebugDescription=The connection to service on pid 0 named com.apple.commcenter.coretelephony.xpc was invalidated.}
+2021-05-17 14:25:48.650530+0530 ACPCoreIOSJS[89507:1871654] [Client] Synchronous remote object proxy returned error: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service on pid 0 named com.apple.commcenter.coretelephony.xpc was invalidated." UserInfo={NSDebugDescription=The connection to service on pid 0 named com.apple.commcenter.coretelephony.xpc was invalidated.}
+2021-05-17 14:25:48.650636+0530 ACPCoreIOSJS[89507:1871558] [Client] Updating selectors failed with: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service on pid 0 named com.apple.commcenter.coretelephony.xpc was invalidated." UserInfo={NSDebugDescription=The connection to service on pid 0 named com.apple.commcenter.coretelephony.xpc was invalidated.}
+2021-05-17 14:25:48.651884+0530 ACPCoreIOSJS[89507:1871654] [Client] Synchronous remote object proxy returned error: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service on pid 0 named com.apple.commcenter.coretelephony.xpc was invalidated." UserInfo={NSDebugDescription=The connection to service on pid 0 named com.apple.commcenter.coretelephony.xpc was invalidated.}
+2021-05-17 14:25:48.651927+0530 ACPCoreIOSJS[89507:1871564] [Client] Updating selectors failed with: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service on pid 0 named com.apple.commcenter.coretelephony.xpc was invalidated." UserInfo={NSDebugDescription=The connection to service on pid 0 named com.apple.commcenter.coretelephony.xpc was invalidated.}
+2021-05-17 14:25:48.653698+0530 ACPCoreIOSJS[89507:1871564] [Client] Updating selectors failed with: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service on pid 0 named com.apple.commcenter.coretelephony.xpc was invalidated from this process." UserInfo={NSDebugDescription=The connection to service on pid 0 named com.apple.commcenter.coretelephony.xpc was invalidated from this process.}
+2021-05-17 14:25:48.654378+0530 ACPCoreIOSJS[89507:1871564] [Client] Updating selectors after delegate removal failed with: Error Domain=NSCocoaErrorDomain Code=4099 "The connection to service on pid 0 named com.apple.commcenter.coretelephony.xpc was invalidated from this process." UserInfo={NSDebugDescription=The connection to service on pid 0 named com.apple.commcenter.coretelephony.xpc was invalidated from this process.}
+2021-05-17 14:25:48.654437+0530 ACPCoreIOSJS[89507:1871654] [AdobeExperienceSDK TRACE <com.adobe.module.lifecycle>]: Creating Lifecycle shared state
+2021-05-17 14:25:48.654824+0530 ACPCoreIOSJS[89507:1871654] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: New shared state data for 'com.adobe.module.lifecycle' at version '2': 
+{
+    "lifecyclecontextdata" : {
+        "appid" : "ACPCoreIOSJS 1.0 (1)",
+        "carriername" : "(null)",
+        "devicename" : "x86_64",
+        "locale" : "en-US",
+        "osversion" : "iOS 14.4",
+        "resolution" : "828x1792",
+        "runmode" : "Application"
+    },
+    "maxsessionlength" : 604800,
+    "starttimestampseconds" : 0
+}
+2021-05-17 14:25:48.655442+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: New shared state data for 'com.adobe.module.eventhub' at version '0': 
+{
+    "extensions" : {
+        "Configuration" : {
+            "version" : "2.9.3-R"
+        },
+        "Identity" : {
+            "version" : "2.5.1"
+        },
+        "Lifecycle" : {
+            "version" : "2.2.1"
+        },
+        "Signal" : {
+            "version" : "2.2.0"
+        }
+    },
+    "version" : "2.9.3-R"
+}
+2021-05-17 14:25:48.660241+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #3 - {
+    class: "Event",
+    name: "Configure with AppID Internal",
+    uniqueIdentifier: "7D80ABCA-6933-4763-89E6-6C5A054353EF",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.configuration",
+    pair_id: "",
+    response_pair_id: "7",
+    event_number: 3,
+    timestamp: "1621241748641 ms",
+    data: {
+        "config.appId" : "77d981f695af/d25999468a17/launch-b5aca324a9ab-development",
+        "config.isinternalevent" : 1
+    }
+}
+2021-05-17 14:25:48.660714+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #3 (com.adobe.eventType.configuration) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:25:48.661097+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Handling configuration event, number: 3
+2021-05-17 14:25:48.661723+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #4 - {
+    class: "Event",
+    name: "STATE_CHANGE_EVENT",
+    uniqueIdentifier: "093D40DB-38B3-4F92-A7BC-36D6BBE75EA5",
+    source: "com.adobe.eventSource.sharedState",
+    type: "com.adobe.eventType.hub",
+    pair_id: "",
+    response_pair_id: "8",
+    event_number: 4,
+    timestamp: "1621241748644 ms",
+    data: {
+        "stateowner" : "com.adobe.module.configuration"
+    }
+}
+2021-05-17 14:25:48.662099+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #4 (com.adobe.eventType.hub) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:25:48.662982+0530 ACPCoreIOSJS[89507:1871656] [AdobeExperienceSDK TRACE <com.adobe.module.identity>]: ProcessEvent : Processing the Identity event: {
+    class: "Event",
+    name: "id-construct-forced-sync",
+    uniqueIdentifier: "5DA116B1-20B8-4CE6-92F3-B8549718003B",
+    source: "com.adobe.eventSource.requestIdentity",
+    type: "com.adobe.eventType.identity",
+    pair_id: "",
+    response_pair_id: "6",
+    event_number: 2,
+    timestamp: "1621241748637 ms",
+    data: {
+        "authenticationstate" : 0,
+        "forcesync" : 1,
+        "issyncevent" : 1
+    }
+}.
+2021-05-17 14:25:48.663001+0530 ACPCoreIOSJS[89507:1871653] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #5 - {
+    class: "Event",
+    name: "Configuration Response Event",
+    uniqueIdentifier: "DDD7921A-9270-443F-88F8-99DEA509A315",
+    source: "com.adobe.eventSource.responseContent",
+    type: "com.adobe.eventType.configuration",
+    pair_id: "",
+    response_pair_id: "9",
+    event_number: 5,
+    timestamp: "1621241748646 ms",
+    data: {
+        "analytics.aamForwardingEnabled" : 0,
+        "analytics.backdatePreviousSessionInfo" : 1,
+        "analytics.batchLimit" : 0.000000,
+        "analytics.launchHitDelay" : 0.000000,
+        "analytics.offlineEnabled" : 1,
+        "analytics.rsids" : "wlppulseappdev",
+        "analytics.server" : "wellpoint.sc.omtrdc.net",
+        "build.environment" : "dev",
+        "experienceCloud.org" : "95CF659E533DE4C90A490D4D@AdobeOrg",
+        "global.privacy" : "optedin",
+        "lifecycle.sessionTimeout" : 300.000000,
+        "property.id" : "PR054281e1a8e74be49ae074a01ac0f1dd",
+        "rules.url" : "https://assets.adobedtm.com/77d981f695af/d25999468a17/launch-b5aca324a9ab-development-rules.zip"
+    }
+}
+2021-05-17 14:25:48.663697+0530 ACPCoreIOSJS[89507:1871656] [AdobeExperienceSDK TRACE <com.adobe.module.identity>]: ProcessEvent : Processing the Identity event {
+    class: "Event",
+    name: "id-construct-forced-sync",
+    uniqueIdentifier: "5DA116B1-20B8-4CE6-92F3-B8549718003B",
+    source: "com.adobe.eventSource.requestIdentity",
+    type: "com.adobe.eventType.identity",
+    pair_id: "",
+    response_pair_id: "6",
+    event_number: 2,
+    timestamp: "1621241748637 ms",
+    data: {
+        "authenticationstate" : 0,
+        "forcesync" : 1,
+        "issyncevent" : 1
+    }
+}.
+2021-05-17 14:25:48.663796+0530 ACPCoreIOSJS[89507:1871653] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #5 (com.adobe.eventType.configuration) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:25:48.664360+0530 ACPCoreIOSJS[89507:1871656] [AdobeExperienceSDK DEBUG <com.adobe.module.identity>]: GenerateURLEncodedValuesCustomerIdString : No Visitor IDs in the provided list to generate for URL.
+2021-05-17 14:25:48.664810+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #6 - {
+    class: "Event",
+    name: "STATE_CHANGE_EVENT",
+    uniqueIdentifier: "925CB853-AE3A-41CA-A374-39BBD88103EB",
+    source: "com.adobe.eventSource.sharedState",
+    type: "com.adobe.eventType.hub",
+    pair_id: "",
+    response_pair_id: "10",
+    event_number: 6,
+    timestamp: "1621241748654 ms",
+    data: {
+        "stateowner" : "com.adobe.module.lifecycle"
+    }
+}
+2021-05-17 14:25:48.665423+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #6 (com.adobe.eventType.hub) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:25:48.665603+0530 ACPCoreIOSJS[89507:1871656] [AdobeExperienceSDK TRACE <DatabaseService>]: QueryResult: <name> = IDENTITY_REQUESTS
+2021-05-17 14:25:48.666646+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #7 - {
+    class: "Event",
+    name: "STATE_CHANGE_EVENT",
+    uniqueIdentifier: "620D9D10-C5EF-4C30-9141-D7B5D3B8B0C6",
+    source: "com.adobe.eventSource.sharedState",
+    type: "com.adobe.eventType.hub",
+    pair_id: "",
+    response_pair_id: "11",
+    event_number: 7,
+    timestamp: "1621241748655 ms",
+    data: {
+        "stateowner" : "com.adobe.module.eventhub"
+    }
+}
+2021-05-17 14:25:48.667049+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #7 (com.adobe.eventType.hub) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:25:48.668800+0530 ACPCoreIOSJS[89507:1871656] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: New shared state data for 'com.adobe.module.identity' at version '2': 
+{
+    "lastsync" : 1620906237,
+    "mid" : "88048388797461489835758268782476454038"
+}
+2021-05-17 14:25:48.668948+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #8 - {
+    class: "Event",
+    name: "STATE_CHANGE_EVENT",
+    uniqueIdentifier: "B4508093-F133-4EF5-A79A-5405698AD005",
+    source: "com.adobe.eventSource.sharedState",
+    type: "com.adobe.eventType.hub",
+    pair_id: "",
+    response_pair_id: "12",
+    event_number: 8,
+    timestamp: "1621241748668 ms",
+    data: {
+        "stateowner" : "com.adobe.module.identity"
+    }
+}
+2021-05-17 14:25:48.669277+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #8 (com.adobe.eventType.hub) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:25:48.669417+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <DatabaseService>]: QueryResult: <ID> = 2
+2021-05-17 14:25:48.669846+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <DatabaseService>]: QueryResult: <URL> = https://dpm.demdex.net/id?d_rtbd=json&d_ver=2&d_orgid=95CF659E533DE4C90A490D4D@AdobeOrg&d_mid=88048388797461489835758268782476454038
+2021-05-17 14:25:48.669914+0530 ACPCoreIOSJS[89507:1871656] [AdobeExperienceSDK TRACE <com.adobe.module.identity>]: SavePersistently : Successfully saved the Identity data into persistence.
+2021-05-17 14:25:48.670113+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <DatabaseService>]: QueryResult: <TIMESTAMP> = 1621241748
+2021-05-17 14:25:48.670277+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <com.adobe.module.identity>]: ProcessPrivacyChange : Processed privacy change request: [5]. New privacy status is: ("optedin").
+2021-05-17 14:25:48.670348+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <DatabaseService>]: QueryResult: <PAIR_ID> = 6
+2021-05-17 14:25:48.670559+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <DatabaseService>]: QueryResult: <EVENT_NUMBER> = 2
+2021-05-17 14:25:48.670604+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK DEBUG <com.adobe.module.identity>]: UpdatePrivacyStatus : Privacy Status was opted-in, so queued Identity hits were sent from the database.
+2021-05-17 14:25:48.670781+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <DatabaseService>]: QueryResult: <SSL> = 1
+2021-05-17 14:25:48.671138+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK DEBUG <com.adobe.module.identity>]: IdentityHitProcessor::Process : Sending network request to URL (https://dpm.demdex.net/id?d_rtbd=json&d_ver=2&d_orgid=95CF659E533DE4C90A490D4D@AdobeOrg&d_mid=88048388797461489835758268782476454038)
+2021-05-17 14:25:48.722413+0530 ACPCoreIOSJS[89507:1871651] [AdobeExperienceSDK TRACE <ConfigurationDownloader>]: Downloaded config file
+2021-05-17 14:25:48.722990+0530 ACPCoreIOSJS[89507:1871651] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Loading overridden configuration from persistence -
+2021-05-17 14:25:48.723858+0530 ACPCoreIOSJS[89507:1871651] [AdobeExperienceSDK WARNING <EventHub(AMSEventHub)>]: Unable to create or update shared state for com.adobe.module.configuration with version 1.
+2021-05-17 14:25:48.724433+0530 ACPCoreIOSJS[89507:1871651] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Shared state has been created for event #1 with data: {
+    "analytics.aamForwardingEnabled" : 0,
+    "analytics.backdatePreviousSessionInfo" : 1,
+    "analytics.batchLimit" : 0.000000,
+    "analytics.launchHitDelay" : 0.000000,
+    "analytics.offlineEnabled" : 1,
+    "analytics.rsids" : "wlppulseappdev",
+    "analytics.server" : "wellpoint.sc.omtrdc.net",
+    "build.environment" : "dev",
+    "experienceCloud.org" : "95CF659E533DE4C90A490D4D@AdobeOrg",
+    "global.privacy" : "optedin",
+    "lifecycle.sessionTimeout" : 300.000000,
+    "property.id" : "PR054281e1a8e74be49ae074a01ac0f1dd",
+    "rules.url" : "https://assets.adobedtm.com/77d981f695af/d25999468a17/launch-b5aca324a9ab-development-rules.zip"
+}
+2021-05-17 14:25:48.726166+0530 ACPCoreIOSJS[89507:1871651] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Saving rules url to persistence - https://assets.adobedtm.com/77d981f695af/d25999468a17/launch-b5aca324a9ab-development-rules.zip
+2021-05-17 14:25:48.726855+0530 ACPCoreIOSJS[89507:1871654] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: AppID loaded from persistence - 77d981f695af/d25999468a17/launch-b5aca324a9ab-development
+2021-05-17 14:25:48.727168+0530 ACPCoreIOSJS[89507:1871653] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #9 - {
+    class: "Event",
+    name: "Configuration Response Event",
+    uniqueIdentifier: "F4A8213F-C0D1-455E-A35C-F8B20ADBEACF",
+    source: "com.adobe.eventSource.responseContent",
+    type: "com.adobe.eventType.configuration",
+    pair_id: "",
+    response_pair_id: "13",
+    event_number: 9,
+    timestamp: "1621241748726 ms",
+    data: {
+        "analytics.aamForwardingEnabled" : 0,
+        "analytics.backdatePreviousSessionInfo" : 1,
+        "analytics.batchLimit" : 0.000000,
+        "analytics.launchHitDelay" : 0.000000,
+        "analytics.offlineEnabled" : 1,
+        "analytics.rsids" : "wlppulseappdev",
+        "analytics.server" : "wellpoint.sc.omtrdc.net",
+        "build.environment" : "dev",
+        "experienceCloud.org" : "95CF659E533DE4C90A490D4D@AdobeOrg",
+        "global.privacy" : "optedin",
+        "lifecycle.sessionTimeout" : 300.000000,
+        "property.id" : "PR054281e1a8e74be49ae074a01ac0f1dd",
+        "rules.url" : "https://assets.adobedtm.com/77d981f695af/d25999468a17/launch-b5aca324a9ab-development-rules.zip"
+    }
+}
+2021-05-17 14:25:48.727287+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK WARNING <RemoteFileManager: >]: Invalid Extension on Cache File (1619554396_2233613465366536373966636435313136323934393031303662663637376133643A313631393535343339362E30393433343622_dir)
+2021-05-17 14:25:48.727401+0530 ACPCoreIOSJS[89507:1871654] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Valid AppID is retrieved from persistence - 77d981f695af/d25999468a17/launch-b5aca324a9ab-development
+2021-05-17 14:25:48.728393+0530 ACPCoreIOSJS[89507:1871653] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #9 (com.adobe.eventType.configuration) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:25:48.728784+0530 ACPCoreIOSJS[89507:1871654] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Processing ConfigureWithAppID event. AppID -(77d981f695af/d25999468a17/launch-b5aca324a9ab-development)
+2021-05-17 14:25:48.729651+0530 ACPCoreIOSJS[89507:1871654] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Saving appID to persistence - 77d981f695af/d25999468a17/launch-b5aca324a9ab-development
+2021-05-17 14:25:48.898411+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK DEBUG <RulesDownloader>]: Successfully downloaded Rules from 'https://assets.adobedtm.com/77d981f695af/d25999468a17/launch-b5aca324a9ab-development-rules.zip'
+2021-05-17 14:25:48.898777+0530 ACPCoreIOSJS[89507:1871654] [AdobeExperienceSDK TRACE <ConfigurationDownloader>]: Downloaded config file
+2021-05-17 14:25:48.899271+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Module (com.adobe.module.configuration) registered rules
+2021-05-17 14:25:48.899375+0530 ACPCoreIOSJS[89507:1871654] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Loading overridden configuration from persistence -
+2021-05-17 14:25:48.900278+0530 ACPCoreIOSJS[89507:1871654] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: New shared state data for 'com.adobe.module.configuration' at version '3': 
+{
+    "analytics.aamForwardingEnabled" : 0,
+    "analytics.backdatePreviousSessionInfo" : 1,
+    "analytics.batchLimit" : 0.000000,
+    "analytics.launchHitDelay" : 0.000000,
+    "analytics.offlineEnabled" : 1,
+    "analytics.rsids" : "wlppulseappdev",
+    "analytics.server" : "wellpoint.sc.omtrdc.net",
+    "build.environment" : "dev",
+    "experienceCloud.org" : "95CF659E533DE4C90A490D4D@AdobeOrg",
+    "global.privacy" : "optedin",
+    "lifecycle.sessionTimeout" : 300.000000,
+    "property.id" : "PR054281e1a8e74be49ae074a01ac0f1dd",
+    "rules.url" : "https://assets.adobedtm.com/77d981f695af/d25999468a17/launch-b5aca324a9ab-development-rules.zip"
+}
+2021-05-17 14:25:48.900536+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #10 - {
+    class: "Event",
+    name: "STATE_CHANGE_EVENT",
+    uniqueIdentifier: "2A61AF8E-2642-461F-91EF-6098977169C4",
+    source: "com.adobe.eventSource.sharedState",
+    type: "com.adobe.eventType.hub",
+    pair_id: "",
+    response_pair_id: "14",
+    event_number: 10,
+    timestamp: "1621241748900 ms",
+    data: {
+        "stateowner" : "com.adobe.module.configuration"
+    }
+}
+2021-05-17 14:25:48.900619+0530 ACPCoreIOSJS[89507:1871654] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Shared state has been created for event #3 with data: {
+    "analytics.aamForwardingEnabled" : 0,
+    "analytics.backdatePreviousSessionInfo" : 1,
+    "analytics.batchLimit" : 0.000000,
+    "analytics.launchHitDelay" : 0.000000,
+    "analytics.offlineEnabled" : 1,
+    "analytics.rsids" : "wlppulseappdev",
+    "analytics.server" : "wellpoint.sc.omtrdc.net",
+    "build.environment" : "dev",
+    "experienceCloud.org" : "95CF659E533DE4C90A490D4D@AdobeOrg",
+    "global.privacy" : "optedin",
+    "lifecycle.sessionTimeout" : 300.000000,
+    "property.id" : "PR054281e1a8e74be49ae074a01ac0f1dd",
+    "rules.url" : "https://assets.adobedtm.com/77d981f695af/d25999468a17/launch-b5aca324a9ab-development-rules.zip"
+}
+2021-05-17 14:25:48.900829+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #10 (com.adobe.eventType.hub) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:25:48.900876+0530 ACPCoreIOSJS[89507:1871654] [AdobeExperienceSDK DEBUG <com.adobe.module.configuration>]: Will not download rules from same url in 15 sec.
+2021-05-17 14:25:48.901218+0530 ACPCoreIOSJS[89507:1871653] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Processing get SDK ids event
+2021-05-17 14:25:48.901507+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Processing get SDK ids event
+2021-05-17 14:25:48.901679+0530 ACPCoreIOSJS[89507:1871651] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #11 - {
+    class: "Event",
+    name: "Configuration Response Event",
+    uniqueIdentifier: "1AC17E6E-1F74-4F5A-9553-AA5AB48D7BF3",
+    source: "com.adobe.eventSource.responseContent",
+    type: "com.adobe.eventType.configuration",
+    pair_id: "",
+    response_pair_id: "15",
+    event_number: 11,
+    timestamp: "1621241748901 ms",
+    data: {
+        "analytics.aamForwardingEnabled" : 0,
+        "analytics.backdatePreviousSessionInfo" : 1,
+        "analytics.batchLimit" : 0.000000,
+        "analytics.launchHitDelay" : 0.000000,
+        "analytics.offlineEnabled" : 1,
+        "analytics.rsids" : "wlppulseappdev",
+        "analytics.server" : "wellpoint.sc.omtrdc.net",
+        "build.environment" : "dev",
+        "experienceCloud.org" : "95CF659E533DE4C90A490D4D@AdobeOrg",
+        "global.privacy" : "optedin",
+        "lifecycle.sessionTimeout" : 300.000000,
+        "property.id" : "PR054281e1a8e74be49ae074a01ac0f1dd",
+        "rules.url" : "https://assets.adobedtm.com/77d981f695af/d25999468a17/launch-b5aca324a9ab-development-rules.zip"
+    }
+}
+2021-05-17 14:25:48.901782+0530 ACPCoreIOSJS[89507:1871653] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Processing get SDK ids event
+2021-05-17 14:25:48.906753+0530 ACPCoreIOSJS[89507:1871651] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #11 (com.adobe.eventType.configuration) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:25:49.353047+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <sql delete statement %s.
+>]: DELETE FROM IDENTITY_REQUESTS WHERE ID = 2
+2021-05-17 14:25:49.353088+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK DEBUG <com.adobe.module.identity>]: ParseIDsOnjsonResponseReceivedCallback : ECID Service returned (ECID: 88048388797461489835758268782476454038, blob: j8Odv6LonN4r3an7LhD3WZrU1bUpAkFkkiY1ncBR96t2PTI, hint: 12, ttl: "604800000 ms")
+2021-05-17 14:25:49.356551+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <com.adobe.module.identity>]: SavePersistently : Successfully saved the Identity data into persistence.
+2021-05-17 14:25:49.356814+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <com.adobe.module.identity>]: HandleIdentityResponseEvent : Identity response event added to event hub with name 'UPDATED_IDENTITY_RESPONSE', pair id , and data {
+        "blob" : "j8Odv6LonN4r3an7LhD3WZrU1bUpAkFkkiY1ncBR96t2PTI",
+        "lastsync" : 1621241749,
+        "locationhint" : "12",
+        "mid" : "88048388797461489835758268782476454038",
+        "updatesharedstate" : 1
+    }.
+2021-05-17 14:25:49.357064+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #12 - {
+    class: "Event",
+    name: "UPDATED_IDENTITY_RESPONSE",
+    uniqueIdentifier: "1DFA305A-A975-4CA2-98D4-CB57C0649D1E",
+    source: "com.adobe.eventSource.responseIdentity",
+    type: "com.adobe.eventType.identity",
+    pair_id: "",
+    response_pair_id: "16",
+    event_number: 12,
+    timestamp: "1621241749356 ms",
+    data: {
+        "blob" : "j8Odv6LonN4r3an7LhD3WZrU1bUpAkFkkiY1ncBR96t2PTI",
+        "lastsync" : 1621241749,
+        "locationhint" : "12",
+        "mid" : "88048388797461489835758268782476454038",
+        "updatesharedstate" : 1
+    }
+}
+2021-05-17 14:25:49.357083+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <com.adobe.module.identity>]: HandleIdentityResponseEvent : Identity response event added to event hub with name 'UPDATED_IDENTITY_RESPONSE', pair id 6, and data {
+        "blob" : "j8Odv6LonN4r3an7LhD3WZrU1bUpAkFkkiY1ncBR96t2PTI",
+        "lastsync" : 1621241749,
+        "locationhint" : "12",
+        "mid" : "88048388797461489835758268782476454038",
+        "updatesharedstate" : 1
+    }.
+2021-05-17 14:25:49.361336+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #12 (com.adobe.eventType.identity) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:25:49.361872+0530 ACPCoreIOSJS[89507:1871654] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: New shared state data for 'com.adobe.module.identity' at version '12': 
+{
+    "blob" : "j8Odv6LonN4r3an7LhD3WZrU1bUpAkFkkiY1ncBR96t2PTI",
+    "lastsync" : 1621241749,
+    "locationhint" : "12",
+    "mid" : "88048388797461489835758268782476454038"
+}
+2021-05-17 14:25:49.362088+0530 ACPCoreIOSJS[89507:1871651] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #13 - {
+    class: "Event",
+    name: "UPDATED_IDENTITY_RESPONSE",
+    uniqueIdentifier: "05472E8A-C005-409D-AF2F-C0257BAC48DF",
+    source: "com.adobe.eventSource.responseIdentity",
+    type: "com.adobe.eventType.identity",
+    pair_id: "6",
+    response_pair_id: "17",
+    event_number: 13,
+    timestamp: "1621241749356 ms",
+    data: {
+        "blob" : "j8Odv6LonN4r3an7LhD3WZrU1bUpAkFkkiY1ncBR96t2PTI",
+        "lastsync" : 1621241749,
+        "locationhint" : "12",
+        "mid" : "88048388797461489835758268782476454038",
+        "updatesharedstate" : 1
+    }
+}
+2021-05-17 14:25:49.362354+0530 ACPCoreIOSJS[89507:1871651] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #13 (com.adobe.eventType.identity) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:25:49.363063+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #14 - {
+    class: "Event",
+    name: "STATE_CHANGE_EVENT",
+    uniqueIdentifier: "A23118A2-00BA-4DCD-8184-0357AF0196D6",
+    source: "com.adobe.eventSource.sharedState",
+    type: "com.adobe.eventType.hub",
+    pair_id: "",
+    response_pair_id: "18",
+    event_number: 14,
+    timestamp: "1621241749361 ms",
+    data: {
+        "stateowner" : "com.adobe.module.identity"
+    }
+}
+2021-05-17 14:25:49.363277+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #14 (com.adobe.eventType.hub) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:25:49.363693+0530 ACPCoreIOSJS[89507:1871656] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Processing get SDK ids event
+2021-05-17 14:26:24.467660+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:26:24.467844+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #15 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "EF55FC9F-54E0-4442-AC26-4D22B8AF3CD4",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "19",
+    event_number: 15,
+    timestamp: "1621241784467 ms",
+    data: {
+        "action" : "Home Page Button in ACPCOREIOSJS",
+        "contextdata" : {
+            "Home Page button" : "Home Page Button clicked in ACPCOREIOSJS"
+        }
+    }
+}
+2021-05-17 14:26:24.468068+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #15 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:26:24.480007+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #16 - {
+    class: "Event",
+    name: "HomePage button click Event",
+    uniqueIdentifier: "208BF2C7-105C-4553-9EA4-E9873EF5EF35",
+    source: "HomePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "20",
+    event_number: 16,
+    timestamp: "1621241784479 ms",
+    data: {
+        "1" : "Homepage details"
+    }
+}
+2021-05-17 14:26:24.480117+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:26:24.480322+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #16 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:26:24.480807+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #17 - {
+    class: "Event",
+    name: "HomePage button click Event",
+    uniqueIdentifier: "4A93D5CB-0F3C-492A-BFDE-2BBB0A324D7D",
+    source: "HomePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "21",
+    event_number: 17,
+    timestamp: "1621241784479 ms",
+    data: {
+        "1" : "Homepage details"
+    }
+}
+2021-05-17 14:26:24.481034+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #17 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:26:24.481487+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #18 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "552F8072-AA65-4DD4-BE2E-B573B8FE5063",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "22",
+    event_number: 18,
+    timestamp: "1621241784480 ms",
+    data: {
+        "contextdata" : {
+            "key1" : "Home page button click in ACPCOREIOSJS",
+            "key2" : "Home page button click in ACPCOREIOSJS"
+        },
+        "state" : "Home Page landing page in ACPCOREIOSJS"
+    }
+}
+2021-05-17 14:26:24.481712+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #18 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:26:38.310671+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:26:38.310967+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #19 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "2FD5C601-7CF2-466A-824F-CA0557519FA8",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "23",
+    event_number: 19,
+    timestamp: "1621241798310 ms",
+    data: {
+        "action" : "Profile  Page Button in ACPCOREIOSJS",
+        "contextdata" : {
+            "Profile Page button" : "ProfilePage Button clicked in ACPCOREIOSJS"
+        }
+    }
+}
+2021-05-17 14:26:38.311200+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #19 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:26:38.322130+0530 ACPCoreIOSJS[89507:1871603] [javascript] ReferenceError: Can't find variable: ACPExtensionEvent
+
+This error is located at:
+    in ProfilePage (at SceneView.tsx:122)
+    in StaticContainer
+    in EnsureSingleNavigator (at SceneView.tsx:114)
+    in SceneView (at useDescriptors.tsx:153)
+    in RCTView (at View.js:34)
+    in View (at CardContainer.tsx:245)
+    in RCTView (at View.js:34)
+    in View (at CardContainer.tsx:244)
+    in RCTView (at View.js:34)
+    in View (at CardSheet.tsx:33)
+    in CardSheet (at Card.tsx:573)
+    in RCTView (at View.js:34)
+    in View (at createAnimatedComponent.js:217)
+    in AnimatedComponent (at createAnimatedComponent.js:278)
+    in AnimatedComponentWrapper (at Card.tsx:555)
+    in PanGestureHandler (at GestureHandlerNative.tsx:13)
+    in PanGestureHandler (at Card.tsx:549)
+    in RCTView (at View.js:34)
+    in View (at createAnimatedComponent.js:217)
+    in AnimatedComponent (at createAnimatedComponent.js:278)
+    in AnimatedComponentWrapper (at Card.tsx:544)
+    in RCTView (at View.js:34)
+    in View (at Card.tsx:538)
+    in Card (at CardContainer.tsx:206)
+    in CardContainer (at CardStack.tsx:623)
+    in RNSScreen (at createAnimatedComponent.js:217)
+    in AnimatedComponent (at createAnimatedComponent.js:278)
+    in AnimatedComponentWrapper (at src/index.native.tsx:134)
+    in Screen (at Screens.tsx:74)
+    in MaybeScreen (at CardStack.tsx:616)
+    in RNSScreenContainer (at src/index.native.tsx:172)
+    in ScreenContainer (at Screens.tsx:50)
+    in MaybeScreenContainer (at CardStack.tsx:498)
+    in CardStack (at StackView.tsx:462)
+    in KeyboardManager (at StackView.tsx:458)
+    in RNCSafeAreaProvider (at SafeAreaContext.tsx:76)
+    in SafeAreaProvider (at SafeAreaProviderCompat.tsx:42)
+    in SafeAreaProviderCompat (at StackView.tsx:455)
+    in RCTView (at View.js:34)
+    in View (at StackView.tsx:454)
+    in StackView (at createStackNavigator.tsx:87)
+    in StackNavigator (at App.js:32)
+    in EnsureSingleNavigator (at BaseNavigationContainer.tsx:409)
+    in BaseNavigationContainer (at NavigationContainer.tsx:91)
+    in ThemeProvider (at NavigationContainer.tsx:90)
+    in NavigationContainer (at App.js:31)
+    in App (at renderApplication.js:47)
+    in RCTView (at View.js:34)
+    in View (at AppContainer.js:107)
+    in RCTView (at View.js:34)
+    in View (at AppContainer.js:134)
+    in AppContainer (at renderApplication.js:40)
+2021-05-17 14:26:38.335006+0530 ACPCoreIOSJS[89507:1871603] [javascript] ReferenceError: Can't find variable: ACPExtensionEvent
+
+This error is located at:
+    in ProfilePage (at SceneView.tsx:122)
+    in StaticContainer
+    in EnsureSingleNavigator (at SceneView.tsx:114)
+    in SceneView (at useDescriptors.tsx:153)
+    in RCTView (at View.js:34)
+    in View (at CardContainer.tsx:245)
+    in RCTView (at View.js:34)
+    in View (at CardContainer.tsx:244)
+    in RCTView (at View.js:34)
+    in View (at CardSheet.tsx:33)
+    in CardSheet (at Card.tsx:573)
+    in RCTView (at View.js:34)
+    in View (at createAnimatedComponent.js:217)
+    in AnimatedComponent (at createAnimatedComponent.js:278)
+    in AnimatedComponentWrapper (at Card.tsx:555)
+    in PanGestureHandler (at GestureHandlerNative.tsx:13)
+    in PanGestureHandler (at Card.tsx:549)
+    in RCTView (at View.js:34)
+    in View (at createAnimatedComponent.js:217)
+    in AnimatedComponent (at createAnimatedComponent.js:278)
+    in AnimatedComponentWrapper (at Card.tsx:544)
+    in RCTView (at View.js:34)
+    in View (at Card.tsx:538)
+    in Card (at CardContainer.tsx:206)
+    in CardContainer (at CardStack.tsx:623)
+    in RNSScreen (at createAnimatedComponent.js:217)
+    in AnimatedComponent (at createAnimatedComponent.js:278)
+    in AnimatedComponentWrapper (at src/index.native.tsx:134)
+    in Screen (at Screens.tsx:74)
+    in MaybeScreen (at CardStack.tsx:616)
+    in RNSScreenContainer (at src/index.native.tsx:172)
+    in ScreenContainer (at Screens.tsx:50)
+    in MaybeScreenContainer (at CardStack.tsx:498)
+    in CardStack (at StackView.tsx:462)
+    in KeyboardManager (at StackView.tsx:458)
+    in RNCSafeAreaProvider (at SafeAreaContext.tsx:76)
+    in SafeAreaProvider (at SafeAreaProviderCompat.tsx:42)
+    in SafeAreaProviderCompat (at StackView.tsx:455)
+    in RCTView (at View.js:34)
+    in View (at StackView.tsx:454)
+    in StackView (at createStackNavigator.tsx:87)
+    in StackNavigator (at App.js:32)
+    in EnsureSingleNavigator (at BaseNavigationContainer.tsx:409)
+    in BaseNavigationContainer (at NavigationContainer.tsx:91)
+    in ThemeProvider (at NavigationContainer.tsx:90)
+    in NavigationContainer (at App.js:31)
+    in App (at renderApplication.js:47)
+    in RCTView (at View.js:34)
+    in View (at AppContainer.js:107)
+    in RCTView (at View.js:34)
+    in View (at AppContainer.js:134)
+    in AppContainer (at renderApplication.js:40)
+2021-05-17 14:26:38.414512+0530 ACPCoreIOSJS[89507:1869703] [native] Running surface LogBox ({
+    initialProps =     {
+    };
+    rootTag = 11;
+})
+2021-05-17 14:26:58.322104+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:26:58.322612+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #20 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "09D12878-03C4-4F5B-9FD4-D28A3790F951",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "24",
+    event_number: 20,
+    timestamp: "1621241818322 ms",
+    data: {
+        "contextdata" : {
+            "key1" : "ACPCOREIOSJS project Landing page",
+            "key2" : "ACPCOREIOSJS project Landing page"
+        },
+        "state" : "Landing Page in ACPCOREIOSJS project "
+    }
+}
+2021-05-17 14:26:58.322871+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #20 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:26:58.331141+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #21 - {
+    class: "Event",
+    name: "Configure with AppId",
+    uniqueIdentifier: "FDE68A23-6396-4611-863B-6D535F0E0D86",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.configuration",
+    pair_id: "",
+    response_pair_id: "25",
+    event_number: 21,
+    timestamp: "1621241818330 ms",
+    data: {
+        "config.appId" : "77d981f695af/d25999468a17/launch-b5aca324a9ab-development"
+    }
+}
+2021-05-17 14:26:58.331520+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #21 (com.adobe.eventType.configuration) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:26:58.331925+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Handling configuration event, number: 21
+2021-05-17 14:26:58.332217+0530 ACPCoreIOSJS[89507:1871651] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Processing ConfigureWithAppID event. AppID -(77d981f695af/d25999468a17/launch-b5aca324a9ab-development)
+2021-05-17 14:26:58.332431+0530 ACPCoreIOSJS[89507:1871651] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Saving appID to persistence - 77d981f695af/d25999468a17/launch-b5aca324a9ab-development
+2021-05-17 14:26:58.334640+0530 ACPCoreIOSJS[89507:1869703] [native] Unbalanced calls start/end for tag 16
+2021-05-17 14:26:58.401882+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #22 - {
+    class: "Event",
+    name: "Configure with AppId",
+    uniqueIdentifier: "14960903-4F2F-4213-98A3-1E889386B10B",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.configuration",
+    pair_id: "",
+    response_pair_id: "26",
+    event_number: 22,
+    timestamp: "1621241818401 ms",
+    data: {
+        "config.appId" : "77d981f695af/d25999468a17/launch-b5aca324a9ab-development"
+    }
+}
+2021-05-17 14:26:58.402312+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #22 (com.adobe.eventType.configuration) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:26:58.402691+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Handling configuration event, number: 22
+2021-05-17 14:26:58.424073+0530 ACPCoreIOSJS[89507:1871651] [AdobeExperienceSDK TRACE <ConfigurationDownloader>]: Downloaded config file
+2021-05-17 14:26:58.424886+0530 ACPCoreIOSJS[89507:1871651] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Loading overridden configuration from persistence -
+2021-05-17 14:26:58.425515+0530 ACPCoreIOSJS[89507:1871651] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: New shared state data for 'com.adobe.module.configuration' at version '21': 
+{
+    "analytics.aamForwardingEnabled" : 0,
+    "analytics.backdatePreviousSessionInfo" : 1,
+    "analytics.batchLimit" : 0.000000,
+    "analytics.launchHitDelay" : 0.000000,
+    "analytics.offlineEnabled" : 1,
+    "analytics.rsids" : "wlppulseappdev",
+    "analytics.server" : "wellpoint.sc.omtrdc.net",
+    "build.environment" : "dev",
+    "experienceCloud.org" : "95CF659E533DE4C90A490D4D@AdobeOrg",
+    "global.privacy" : "optedin",
+    "lifecycle.sessionTimeout" : 300.000000,
+    "property.id" : "PR054281e1a8e74be49ae074a01ac0f1dd",
+    "rules.url" : "https://assets.adobedtm.com/77d981f695af/d25999468a17/launch-b5aca324a9ab-development-rules.zip"
+}
+2021-05-17 14:26:58.425686+0530 ACPCoreIOSJS[89507:1871651] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Shared state has been created for event #21 with data: {
+    "analytics.aamForwardingEnabled" : 0,
+    "analytics.backdatePreviousSessionInfo" : 1,
+    "analytics.batchLimit" : 0.000000,
+    "analytics.launchHitDelay" : 0.000000,
+    "analytics.offlineEnabled" : 1,
+    "analytics.rsids" : "wlppulseappdev",
+    "analytics.server" : "wellpoint.sc.omtrdc.net",
+    "build.environment" : "dev",
+    "experienceCloud.org" : "95CF659E533DE4C90A490D4D@AdobeOrg",
+    "global.privacy" : "optedin",
+    "lifecycle.sessionTimeout" : 300.000000,
+    "property.id" : "PR054281e1a8e74be49ae074a01ac0f1dd",
+    "rules.url" : "https://assets.adobedtm.com/77d981f695af/d25999468a17/launch-b5aca324a9ab-development-rules.zip"
+}
+2021-05-17 14:26:58.425739+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #23 - {
+    class: "Event",
+    name: "STATE_CHANGE_EVENT",
+    uniqueIdentifier: "8F371B36-F037-4668-9B44-6C1167A7B08F",
+    source: "com.adobe.eventSource.sharedState",
+    type: "com.adobe.eventType.hub",
+    pair_id: "",
+    response_pair_id: "27",
+    event_number: 23,
+    timestamp: "1621241818425 ms",
+    data: {
+        "stateowner" : "com.adobe.module.configuration"
+    }
+}
+2021-05-17 14:26:58.425875+0530 ACPCoreIOSJS[89507:1871651] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Saving rules url to persistence - https://assets.adobedtm.com/77d981f695af/d25999468a17/launch-b5aca324a9ab-development-rules.zip
+2021-05-17 14:26:58.426008+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #23 (com.adobe.eventType.hub) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:26:58.426233+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Processing ConfigureWithAppID event. AppID -(77d981f695af/d25999468a17/launch-b5aca324a9ab-development)
+2021-05-17 14:26:58.426423+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Saving appID to persistence - 77d981f695af/d25999468a17/launch-b5aca324a9ab-development
+2021-05-17 14:26:58.426593+0530 ACPCoreIOSJS[89507:1871654] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #24 - {
+    class: "Event",
+    name: "Configuration Response Event",
+    uniqueIdentifier: "C89A502A-2D34-4F81-913A-219F220B03B5",
+    source: "com.adobe.eventSource.responseContent",
+    type: "com.adobe.eventType.configuration",
+    pair_id: "",
+    response_pair_id: "28",
+    event_number: 24,
+    timestamp: "1621241818426 ms",
+    data: {
+        "analytics.aamForwardingEnabled" : 0,
+        "analytics.backdatePreviousSessionInfo" : 1,
+        "analytics.batchLimit" : 0.000000,
+        "analytics.launchHitDelay" : 0.000000,
+        "analytics.offlineEnabled" : 1,
+        "analytics.rsids" : "wlppulseappdev",
+        "analytics.server" : "wellpoint.sc.omtrdc.net",
+        "2021-05-17 14:26:58.426634+0530 ACPCoreIOSJS[89507:1871653] [AdobeExperienceSDK WARNING <RemoteFileManager: >]: Invalid Extension on Cache File (1619554396_2233613465366536373966636435313136323934393031303662663637376133643A313631393535343339362E30393433343622_dir)
+build.environment" : "dev",
+        "experienceCloud.org" : "95CF659E533DE4C90A490D4D@AdobeOrg",
+        "global.privacy" : "optedin",
+        "lifecycle.sessionTimeout" : 300.000000,
+        "property.id" : "PR054281e1a8e74be49ae074a01ac0f1dd",
+        "rules.url" : "https://assets.adobedtm.com/77d981f695af/d25999468a17/launch-b5aca324a9ab-development-rules.zip"
+    }
+}
+2021-05-17 14:26:58.426972+0530 ACPCoreIOSJS[89507:1871654] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #24 (com.adobe.eventType.configuration) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:26:58.434730+0530 ACPCoreIOSJS[89507:1871653] [AdobeExperienceSDK DEBUG <RulesDownloader>]: Successfully downloaded Rules from 'https://assets.adobedtm.com/77d981f695af/d25999468a17/launch-b5aca324a9ab-development-rules.zip'
+2021-05-17 14:26:58.435122+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <ConfigurationDownloader>]: Downloaded config file
+2021-05-17 14:26:58.435719+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Loading overridden configuration from persistence -
+2021-05-17 14:26:58.435798+0530 ACPCoreIOSJS[89507:1871653] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Module (com.adobe.module.configuration) registered rules
+2021-05-17 14:26:58.436523+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: New shared state data for 'com.adobe.module.configuration' at version '22': 
+{
+    "analytics.aamForwardingEnabled" : 0,
+    "analytics.backdatePreviousSessionInfo" : 1,
+    "analytics.batchLimit" : 0.000000,
+    "analytics.launchHitDelay" : 0.000000,
+    "analytics.offlineEnabled" : 1,
+    "analytics.rsids" : "wlppulseappdev",
+    "analytics.server" : "wellpoint.sc.omtrdc.net",
+    "build.environment" : "dev",
+    "experienceCloud.org" : "95CF659E533DE4C90A490D4D@AdobeOrg",
+    "global.privacy" : "optedin",
+    "lifecycle.sessionTimeout" : 300.000000,
+    "property.id" : "PR054281e1a8e74be49ae074a01ac0f1dd",
+    "rules.url" : "https://assets.adobedtm.com/77d981f695af/d25999468a17/launch-b5aca324a9ab-development-rules.zip"
+}
+2021-05-17 14:26:58.436720+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #25 - {
+    class: "Event",
+    name: "STATE_CHANGE_EVENT",
+    uniqueIdentifier: "E372CA0B-9747-4630-9010-09AC5B2AC192",
+    source: "com.adobe.eventSource.sharedState",
+    type: "com.adobe.eventType.hub",
+    pair_id: "",
+    response_pair_id: "29",
+    event_number: 25,
+    timestamp: "1621241818436 ms",
+    data: {
+        "stateowner" : "com.adobe.module.configuration"
+    }
+}
+2021-05-17 14:26:58.436762+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Shared state has been created for event #22 with data: {
+    "analytics.aamForwardingEnabled" : 0,
+    "analytics.backdatePreviousSessionInfo" : 1,
+    "analytics.batchLimit" : 0.000000,
+    "analytics.launchHitDelay" : 0.000000,
+    "analytics.offlineEnabled" : 1,
+    "analytics.rsids" : "wlppulseappdev",
+    "analytics.server" : "wellpoint.sc.omtrdc.net",
+    "build.environment" : "dev",
+    "experienceCloud.org" : "95CF659E533DE4C90A490D4D@AdobeOrg",
+    "global.privacy" : "optedin",
+    "lifecycle.sessionTimeout" : 300.000000,
+    "property.id" : "PR054281e1a8e74be49ae074a01ac0f1dd",
+    "rules.url" : "https://assets.adobedtm.com/77d981f695af/d25999468a17/launch-b5aca324a9ab-development-rules.zip"
+}
+2021-05-17 14:26:58.436961+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #25 (com.adobe.eventType.hub) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:26:58.436978+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK DEBUG <com.adobe.module.configuration>]: Will not download rules from same url in 15 sec.
+2021-05-17 14:26:58.437264+0530 ACPCoreIOSJS[89507:1871654] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Processing get SDK ids event
+2021-05-17 14:26:58.437468+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Processing get SDK ids event
+2021-05-17 14:26:58.437616+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #26 - {
+    class: "Event",
+    name: "Configuration Response Event",
+    uniqueIdentifier: "31921BCE-3422-4937-9F48-C22D99512EA0",
+    source: "com.adobe.eventSource.responseContent",
+    type: "com.adobe.eventType.configuration",
+    pair_id: "",
+    response_pair_id: "30",
+    event_number: 26,
+    timestamp: "1621241818437 ms",
+    data: {
+        "analytics.aamForwardingEnabled" : 0,
+        "analytics.backdatePreviousSessionInfo" : 1,
+        "analytics.batchLimit" : 0.000000,
+        "analytics.launchHitDelay" : 0.000000,
+        "analytics.offlineEnabled" : 1,
+        "analytics.rsids" : "wlppulseappdev",
+        "analytics.server" : "wellpoint.sc.omtrdc.net",
+        "build.environment" : "dev",
+        "experienceCloud.org" : "95CF659E533DE4C90A490D4D@AdobeOrg",
+        "global.privacy" : "optedin",
+        "lifecycle.sessionTimeout" : 300.000000,
+        "property.id" : "PR054281e1a8e74be49ae074a01ac0f1dd",
+        "rules.url" : "https://assets.adobedtm.com/77d981f695af/d25999468a17/launch-b5aca324a9ab-development-rules.zip"
+    }
+}
+2021-05-17 14:26:58.438062+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #26 (com.adobe.eventType.configuration) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:26:58.556108+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #27 - {
+    class: "Event",
+    name: "Configure with AppId",
+    uniqueIdentifier: "5AF0FD56-B8B6-4493-B3C1-F87680130E0D",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.configuration",
+    pair_id: "",
+    response_pair_id: "31",
+    event_number: 27,
+    timestamp: "1621241818555 ms",
+    data: {
+        "config.appId" : "77d981f695af/d25999468a17/launch-b5aca324a9ab-development"
+    }
+}
+2021-05-17 14:26:58.556330+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #27 (com.adobe.eventType.configuration) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:26:58.556616+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Handling configuration event, number: 27
+2021-05-17 14:26:58.556857+0530 ACPCoreIOSJS[89507:1871651] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Processing ConfigureWithAppID event. AppID -(77d981f695af/d25999468a17/launch-b5aca324a9ab-development)
+2021-05-17 14:26:58.557046+0530 ACPCoreIOSJS[89507:1871651] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Saving appID to persistence - 77d981f695af/d25999468a17/launch-b5aca324a9ab-development
+2021-05-17 14:26:58.566691+0530 ACPCoreIOSJS[89507:1871651] [AdobeExperienceSDK TRACE <ConfigurationDownloader>]: Downloaded config file
+2021-05-17 14:26:58.567163+0530 ACPCoreIOSJS[89507:1871651] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Loading overridden configuration from persistence -
+2021-05-17 14:26:58.567894+0530 ACPCoreIOSJS[89507:1871651] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: New shared state data for 'com.adobe.module.configuration' at version '27': 
+{
+    "analytics.aamForwardingEnabled" : 0,
+    "analytics.backdatePreviousSessionInfo" : 1,
+    "analytics.batchLimit" : 0.000000,
+    "analytics.launchHitDelay" : 0.000000,
+    "analytics.offlineEnabled" : 1,
+    "analytics.rsids" : "wlppulseappdev",
+    "analytics.server" : "wellpoint.sc.omtrdc.net",
+    "build.environment" : "dev",
+    "experienceCloud.org" : "95CF659E533DE4C90A490D4D@AdobeOrg",
+    "global.privacy" : "optedin",
+    "lifecycle.sessionTimeout" : 300.000000,
+    "property.id" : "PR054281e1a8e74be49ae074a01ac0f1dd",
+    "rules.url" : "https://assets.adobedtm.com/77d981f695af/d25999468a17/launch-b5aca324a9ab-development-rules.zip"
+}
+2021-05-17 14:26:58.568012+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #28 - {
+    class: "Event",
+    name: "STATE_CHANGE_EVENT",
+    uniqueIdentifier: "F1CDBD40-9CE0-4A42-B237-2B4E19641FA8",
+    source: "com.adobe.eventSource.sharedState",
+    type: "com.adobe.eventType.hub",
+    pair_id: "",
+    response_pair_id: "32",
+    event_number: 28,
+    timestamp: "1621241818567 ms",
+    data: {
+        "stateowner" : "com.adobe.module.configuration"
+    }
+}
+2021-05-17 14:26:58.568178+0530 ACPCoreIOSJS[89507:1871651] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Shared state has been created for event #27 with data: {
+    "analytics.aamForwardingEnabled" : 0,
+    "analytics.backdatePreviousSessionInfo" : 1,
+    "analytics.batchLimit" : 0.000000,
+    "analytics.launchHitDelay" : 0.000000,
+    "analytics.offlineEnabled" : 1,
+    "analytics.rsids" : "wlppulseappdev",
+    "analytics.server" : "wellpoint.sc.omtrdc.net",
+    "build.environment" : "dev",
+    "experienceCloud.org" : "95CF659E533DE4C90A490D4D@AdobeOrg",
+    "global.privacy" : "optedin",
+    "lifecycle.sessionTimeout" : 300.000000,
+    "property.id" : "PR054281e1a8e74be49ae074a01ac0f1dd",
+    "rules.url" : "https://assets.adobedtm.com/77d981f695af/d25999468a17/launch-b5aca324a9ab-development-rules.zip"
+}
+2021-05-17 14:26:58.568256+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #28 (com.adobe.eventType.hub) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:26:58.568463+0530 ACPCoreIOSJS[89507:1871651] [AdobeExperienceSDK DEBUG <com.adobe.module.configuration>]: Will not download rules from same url in 15 sec.
+2021-05-17 14:26:58.568879+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <com.adobe.module.configuration>]: Processing get SDK ids event
+2021-05-17 14:26:58.569131+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #29 - {
+    class: "Event",
+    name: "Configuration Response Event",
+    uniqueIdentifier: "354056D2-B9E3-4FC1-8383-F0A94CF4EA19",
+    source: "com.adobe.eventSource.responseContent",
+    type: "com.adobe.eventType.configuration",
+    pair_id: "",
+    response_pair_id: "33",
+    event_number: 29,
+    timestamp: "1621241818568 ms",
+    data: {
+        "analytics.aamForwardingEnabled" : 0,
+        "analytics.backdatePreviousSessionInfo" : 1,
+        "analytics.batchLimit" : 0.000000,
+        "analytics.launchHitDelay" : 0.000000,
+        "analytics.offlineEnabled" : 1,
+        "analytics.rsids" : "wlppulseappdev",
+        "analytics.server" : "wellpoint.sc.omtrdc.net",
+        "build.environment" : "dev",
+        "experienceCloud.org" : "95CF659E533DE4C90A490D4D@AdobeOrg",
+        "global.privacy" : "optedin",
+        "lifecycle.sessionTimeout" : 300.000000,
+        "property.id" : "PR054281e1a8e74be49ae074a01ac0f1dd",
+        "rules.url" : "https://assets.adobedtm.com/77d981f695af/d25999468a17/launch-b5aca324a9ab-development-rules.zip"
+    }
+}
+2021-05-17 14:26:58.569848+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #29 (com.adobe.eventType.configuration) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:02.317765+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:02.318055+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #30 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "19C3D26B-765B-4F14-BA64-28A33A3DDBC0",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "34",
+    event_number: 30,
+    timestamp: "1621241822317 ms",
+    data: {
+        "action" : "Home Page Button in ACPCOREIOSJS",
+        "contextdata" : {
+            "Home Page button" : "Home Page Button clicked in ACPCOREIOSJS"
+        }
+    }
+}
+2021-05-17 14:27:02.318327+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #30 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:02.322294+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #31 - {
+    class: "Event",
+    name: "HomePage button click Event",
+    uniqueIdentifier: "D2766419-7CB4-4AC2-A697-B0E488FDEFA5",
+    source: "HomePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "35",
+    event_number: 31,
+    timestamp: "1621241822322 ms",
+    data: {
+        "1" : "Homepage details"
+    }
+}
+2021-05-17 14:27:02.322312+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:02.322566+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #31 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:02.323155+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #32 - {
+    class: "Event",
+    name: "HomePage button click Event",
+    uniqueIdentifier: "7E4D27F2-FBAE-462E-BB33-08B11309B5D5",
+    source: "HomePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "36",
+    event_number: 32,
+    timestamp: "1621241822322 ms",
+    data: {
+        "1" : "Homepage details"
+    }
+}
+2021-05-17 14:27:02.323313+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #32 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:02.323822+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #33 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "9F08D8D5-167C-4DE5-81D4-E6D8959F253C",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "37",
+    event_number: 33,
+    timestamp: "1621241822322 ms",
+    data: {
+        "contextdata" : {
+            "key1" : "Home page button click in ACPCOREIOSJS",
+            "key2" : "Home page button click in ACPCOREIOSJS"
+        },
+        "state" : "Home Page landing page in ACPCOREIOSJS"
+    }
+}
+2021-05-17 14:27:02.324018+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #33 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:08.433519+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:08.433754+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #34 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "A4B38EE9-023E-493A-BCF9-8AAF55D62B15",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "38",
+    event_number: 34,
+    timestamp: "1621241828433 ms",
+    data: {
+        "action" : "Profile  Page Button in ACPCOREIOSJS",
+        "contextdata" : {
+            "Profile Page button" : "ProfilePage Button clicked in ACPCOREIOSJS"
+        }
+    }
+}
+2021-05-17 14:27:08.434011+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #34 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:08.438689+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:08.438711+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #35 - {
+    class: "Event",
+    name: "ProfilePage button click Event",
+    uniqueIdentifier: "55787E90-97BF-4AF7-B3D7-CBE7FBEAA9D6",
+    source: "ProfilePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "39",
+    event_number: 35,
+    timestamp: "1621241828438 ms",
+    data: {
+        "2" : "ProfilePage details"
+    }
+}
+2021-05-17 14:27:08.439091+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #35 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:08.440259+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #36 - {
+    class: "Event",
+    name: "ProfilePage button click Event",
+    uniqueIdentifier: "3466B16D-F98B-409D-B190-B0F3C71A45AE",
+    source: "ProfilePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "40",
+    event_number: 36,
+    timestamp: "1621241828438 ms",
+    data: {
+        "2" : "ProfilePage details"
+    }
+}
+2021-05-17 14:27:08.440563+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #36 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:08.441071+0530 ACPCoreIOSJS[89507:1871651] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #37 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "6AA63DA1-69F9-444A-BF12-BB04B18C49E3",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "41",
+    event_number: 37,
+    timestamp: "1621241828438 ms",
+    data: {
+        "contextdata" : {
+            "key1" : "Profile page button click in ACPCOREIOSJS",
+            "key2" : "Profile page button click in ACPCOREIOSJS"
+        },
+        "state" : "Profile Page landing page in ACPCOREIOSJS"
+    }
+}
+2021-05-17 14:27:08.441312+0530 ACPCoreIOSJS[89507:1871651] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #37 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:10.655180+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:10.655388+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #38 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "F6D18955-3C8B-4C50-B9C3-D8245C02703C",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "42",
+    event_number: 38,
+    timestamp: "1621241830655 ms",
+    data: {
+        "action" : "Home Page Button in ACPCOREIOSJS",
+        "contextdata" : {
+            "Home Page button" : "Home Page Button clicked in ACPCOREIOSJS"
+        }
+    }
+}
+2021-05-17 14:27:10.655686+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #38 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:10.661072+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:10.661093+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #39 - {
+    class: "Event",
+    name: "HomePage button click Event",
+    uniqueIdentifier: "4371DC4C-FEEF-431B-8039-7A0062B423C4",
+    source: "HomePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "43",
+    event_number: 39,
+    timestamp: "1621241830660 ms",
+    data: {
+        "1" : "Homepage details"
+    }
+}
+2021-05-17 14:27:10.661453+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #39 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:10.662132+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #40 - {
+    class: "Event",
+    name: "HomePage button click Event",
+    uniqueIdentifier: "12E40295-B373-4E4F-BA9F-C9EFD5E498B8",
+    source: "HomePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "44",
+    event_number: 40,
+    timestamp: "1621241830660 ms",
+    data: {
+        "1" : "Homepage details"
+    }
+}
+2021-05-17 14:27:10.662408+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #40 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:10.663036+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #41 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "27427AEA-E244-414C-9A8C-4CF9CB525775",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "45",
+    event_number: 41,
+    timestamp: "1621241830661 ms",
+    data: {
+        "contextdata" : {
+            "key1" : "Home page button click in ACPCOREIOSJS",
+            "key2" : "Home page button click in ACPCOREIOSJS"
+        },
+        "state" : "Home Page landing page in ACPCOREIOSJS"
+    }
+}
+2021-05-17 14:27:10.663292+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #41 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:16.490198+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:16.490453+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #42 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "931C54E3-2033-41E7-8DDB-94C32763313B",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "46",
+    event_number: 42,
+    timestamp: "1621241836490 ms",
+    data: {
+        "action" : "Profile  Page Button in ACPCOREIOSJS",
+        "contextdata" : {
+            "Profile Page button" : "ProfilePage Button clicked in ACPCOREIOSJS"
+        }
+    }
+}
+2021-05-17 14:27:16.490710+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #42 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:16.495936+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:16.496041+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #43 - {
+    class: "Event",
+    name: "ProfilePage button click Event",
+    uniqueIdentifier: "408C920E-504A-4395-838C-88FCF0D10B65",
+    source: "ProfilePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "47",
+    event_number: 43,
+    timestamp: "1621241836495 ms",
+    data: {
+        "2" : "ProfilePage details"
+    }
+}
+2021-05-17 14:27:16.496285+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #43 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:16.497058+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #44 - {
+    class: "Event",
+    name: "ProfilePage button click Event",
+    uniqueIdentifier: "8114BD54-C5FA-48B0-A3F9-2F5D4F8D967F",
+    source: "ProfilePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "48",
+    event_number: 44,
+    timestamp: "1621241836495 ms",
+    data: {
+        "2" : "ProfilePage details"
+    }
+}
+2021-05-17 14:27:16.497270+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #44 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:16.497719+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #45 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "09068386-22FF-4BD5-AE04-94CD19F0D3B1",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "49",
+    event_number: 45,
+    timestamp: "1621241836495 ms",
+    data: {
+        "contextdata" : {
+            "key1" : "Profile page button click in ACPCOREIOSJS",
+            "key2" : "Profile page button click in ACPCOREIOSJS"
+        },
+        "state" : "Profile Page landing page in ACPCOREIOSJS"
+    }
+}
+2021-05-17 14:27:16.497896+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #45 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:18.719629+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:18.719863+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #46 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "895E2E5C-966F-4DD0-9F9B-4B12114B19B9",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "50",
+    event_number: 46,
+    timestamp: "1621241838719 ms",
+    data: {
+        "action" : "Home Page Button in ACPCOREIOSJS",
+        "contextdata" : {
+            "Home Page button" : "Home Page Button clicked in ACPCOREIOSJS"
+        }
+    }
+}
+2021-05-17 14:27:18.720118+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #46 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:18.724773+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:18.724904+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #47 - {
+    class: "Event",
+    name: "HomePage button click Event",
+    uniqueIdentifier: "9858B41C-7745-4F84-A1E8-CE603410E998",
+    source: "HomePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "51",
+    event_number: 47,
+    timestamp: "1621241838724 ms",
+    data: {
+        "1" : "Homepage details"
+    }
+}
+2021-05-17 14:27:18.725171+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #47 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:18.725866+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #48 - {
+    class: "Event",
+    name: "HomePage button click Event",
+    uniqueIdentifier: "3CDC6652-3B22-4979-9F11-8E9108995FD1",
+    source: "HomePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "52",
+    event_number: 48,
+    timestamp: "1621241838724 ms",
+    data: {
+        "1" : "Homepage details"
+    }
+}
+2021-05-17 14:27:18.726258+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #48 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:18.726910+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #49 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "6CA8C7B9-0E4B-4062-8119-66CC07CFE973",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "53",
+    event_number: 49,
+    timestamp: "1621241838724 ms",
+    data: {
+        "contextdata" : {
+            "key1" : "Home page button click in ACPCOREIOSJS",
+            "key2" : "Home page button click in ACPCOREIOSJS"
+        },
+        "state" : "Home Page landing page in ACPCOREIOSJS"
+    }
+}
+2021-05-17 14:27:18.727118+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #49 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:21.280553+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:21.280751+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #50 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "982FF41D-E621-4087-9D37-1EDB5DD795B8",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "54",
+    event_number: 50,
+    timestamp: "1621241841280 ms",
+    data: {
+        "action" : "Profile  Page Button in ACPCOREIOSJS",
+        "contextdata" : {
+            "Profile Page button" : "ProfilePage Button clicked in ACPCOREIOSJS"
+        }
+    }
+}
+2021-05-17 14:27:21.281131+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #50 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:21.285763+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:21.285881+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #51 - {
+    class: "Event",
+    name: "ProfilePage button click Event",
+    uniqueIdentifier: "8F0D5052-53AF-4A39-AD57-A84D9F8A032F",
+    source: "ProfilePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "55",
+    event_number: 51,
+    timestamp: "1621241841285 ms",
+    data: {
+        "2" : "ProfilePage details"
+    }
+}
+2021-05-17 14:27:21.286113+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #51 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:21.286657+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #52 - {
+    class: "Event",
+    name: "ProfilePage button click Event",
+    uniqueIdentifier: "84CBCBE1-3C9E-454E-BAC4-31592081FC8D",
+    source: "ProfilePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "56",
+    event_number: 52,
+    timestamp: "1621241841285 ms",
+    data: {
+        "2" : "ProfilePage details"
+    }
+}
+2021-05-17 14:27:21.286899+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #52 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:21.287451+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #53 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "DF8089B0-6A3C-48AA-A0D4-C8A56F187155",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "57",
+    event_number: 53,
+    timestamp: "1621241841285 ms",
+    data: {
+        "contextdata" : {
+            "key1" : "Profile page button click in ACPCOREIOSJS",
+            "key2" : "Profile page button click in ACPCOREIOSJS"
+        },
+        "state" : "Profile Page landing page in ACPCOREIOSJS"
+    }
+}
+2021-05-17 14:27:21.287643+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #53 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:23.355743+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:23.356023+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #54 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "4092BF46-DDAB-4918-9BFB-447E7CDD7D67",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "58",
+    event_number: 54,
+    timestamp: "1621241843355 ms",
+    data: {
+        "action" : "Home Page Button in ACPCOREIOSJS",
+        "contextdata" : {
+            "Home Page button" : "Home Page Button clicked in ACPCOREIOSJS"
+        }
+    }
+}
+2021-05-17 14:27:23.356291+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #54 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:23.359984+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:23.360061+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #55 - {
+    class: "Event",
+    name: "HomePage button click Event",
+    uniqueIdentifier: "9919E9C6-064F-42CA-B4BF-4CF56CEC6950",
+    source: "HomePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "59",
+    event_number: 55,
+    timestamp: "1621241843359 ms",
+    data: {
+        "1" : "Homepage details"
+    }
+}
+2021-05-17 14:27:23.360357+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #55 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:23.360880+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #56 - {
+    class: "Event",
+    name: "HomePage button click Event",
+    uniqueIdentifier: "6095EA48-C296-439C-8E46-63656F2A4C43",
+    source: "HomePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "60",
+    event_number: 56,
+    timestamp: "1621241843359 ms",
+    data: {
+        "1" : "Homepage details"
+    }
+}
+2021-05-17 14:27:23.361063+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #56 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:23.361609+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #57 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "59F28E3E-6745-4F39-9C74-C9AF7DA60986",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "61",
+    event_number: 57,
+    timestamp: "1621241843359 ms",
+    data: {
+        "contextdata" : {
+            "key1" : "Home page button click in ACPCOREIOSJS",
+            "key2" : "Home page button click in ACPCOREIOSJS"
+        },
+        "state" : "Home Page landing page in ACPCOREIOSJS"
+    }
+}
+2021-05-17 14:27:23.361834+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #57 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:25.681872+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:25.682202+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #58 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "DBDD5975-9547-4174-B0B0-9231C3C5BA08",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "62",
+    event_number: 58,
+    timestamp: "1621241845681 ms",
+    data: {
+        "action" : "Profile  Page Button in ACPCOREIOSJS",
+        "contextdata" : {
+            "Profile Page button" : "ProfilePage Button clicked in ACPCOREIOSJS"
+        }
+    }
+}
+2021-05-17 14:27:25.682433+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #58 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:25.686327+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:25.686340+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #59 - {
+    class: "Event",
+    name: "ProfilePage button click Event",
+    uniqueIdentifier: "33C79FB1-E27A-44D2-8296-EF389F96ABF7",
+    source: "ProfilePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "63",
+    event_number: 59,
+    timestamp: "1621241845686 ms",
+    data: {
+        "2" : "ProfilePage details"
+    }
+}
+2021-05-17 14:27:25.686598+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #59 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:25.687269+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #60 - {
+    class: "Event",
+    name: "ProfilePage button click Event",
+    uniqueIdentifier: "C7932906-C052-46FF-BB91-3DF809E4C2A6",
+    source: "ProfilePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "64",
+    event_number: 60,
+    timestamp: "1621241845686 ms",
+    data: {
+        "2" : "ProfilePage details"
+    }
+}
+2021-05-17 14:27:25.687504+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #60 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:25.688080+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #61 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "49BB5F96-0A51-4DE2-999D-CB44CE1DAFEB",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "65",
+    event_number: 61,
+    timestamp: "1621241845686 ms",
+    data: {
+        "contextdata" : {
+            "key1" : "Profile page button click in ACPCOREIOSJS",
+            "key2" : "Profile page button click in ACPCOREIOSJS"
+        },
+        "state" : "Profile Page landing page in ACPCOREIOSJS"
+    }
+}
+2021-05-17 14:27:25.688317+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #61 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:27.572186+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:27.572513+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #62 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "C3020294-5BF9-43BE-9A20-AEF930F59D2A",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "66",
+    event_number: 62,
+    timestamp: "1621241847572 ms",
+    data: {
+        "action" : "Home Page Button in ACPCOREIOSJS",
+        "contextdata" : {
+            "Home Page button" : "Home Page Button clicked in ACPCOREIOSJS"
+        }
+    }
+}
+2021-05-17 14:27:27.572758+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #62 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:27.573308+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #63 - {
+    class: "Event",
+    name: "HomePage button click Event",
+    uniqueIdentifier: "C1BD8BF6-E3A1-41EF-BAD0-7346699D6F15",
+    source: "HomePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "67",
+    event_number: 63,
+    timestamp: "1621241847572 ms",
+    data: {
+        "1" : "Homepage details"
+    }
+}
+2021-05-17 14:27:27.573551+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #63 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:27.576773+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:27.576923+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #64 - {
+    class: "Event",
+    name: "HomePage button click Event",
+    uniqueIdentifier: "5877A5E2-DD22-4325-9ED3-5F705887C9C5",
+    source: "HomePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "68",
+    event_number: 64,
+    timestamp: "1621241847576 ms",
+    data: {
+        "1" : "Homepage details"
+    }
+}
+2021-05-17 14:27:27.577261+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #64 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:27.578091+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #65 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "8E354823-5EFA-4086-B610-6C234BB610FA",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "69",
+    event_number: 65,
+    timestamp: "1621241847576 ms",
+    data: {
+        "contextdata" : {
+            "key1" : "Home page button click in ACPCOREIOSJS",
+            "key2" : "Home page button click in ACPCOREIOSJS"
+        },
+        "state" : "Home Page landing page in ACPCOREIOSJS"
+    }
+}
+2021-05-17 14:27:27.578667+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #65 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:29.493804+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:29.494048+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #66 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "E85F6041-A769-474D-A8A0-E188C39E964C",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "70",
+    event_number: 66,
+    timestamp: "1621241849493 ms",
+    data: {
+        "action" : "Profile  Page Button in ACPCOREIOSJS",
+        "contextdata" : {
+            "Profile Page button" : "ProfilePage Button clicked in ACPCOREIOSJS"
+        }
+    }
+}
+2021-05-17 14:27:29.494340+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #66 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:29.497846+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:29.497925+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #67 - {
+    class: "Event",
+    name: "ProfilePage button click Event",
+    uniqueIdentifier: "283D203C-7BF4-45B3-92E4-A818F0C7571F",
+    source: "ProfilePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "71",
+    event_number: 67,
+    timestamp: "1621241849497 ms",
+    data: {
+        "2" : "ProfilePage details"
+    }
+}
+2021-05-17 14:27:29.498185+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #67 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:29.498741+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #68 - {
+    class: "Event",
+    name: "ProfilePage button click Event",
+    uniqueIdentifier: "94458D19-1421-4780-B63C-2DA477FD917C",
+    source: "ProfilePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "72",
+    event_number: 68,
+    timestamp: "1621241849497 ms",
+    data: {
+        "2" : "ProfilePage details"
+    }
+}
+2021-05-17 14:27:29.498966+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #68 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:29.499472+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #69 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "D9666F46-3A7A-4854-A295-10535F2FE53F",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "73",
+    event_number: 69,
+    timestamp: "1621241849497 ms",
+    data: {
+        "contextdata" : {
+            "key1" : "Profile page button click in ACPCOREIOSJS",
+            "key2" : "Profile page button click in ACPCOREIOSJS"
+        },
+        "state" : "Profile Page landing page in ACPCOREIOSJS"
+    }
+}
+2021-05-17 14:27:29.499671+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #69 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:31.761965+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:31.762251+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #70 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "6378BD55-BEA1-433E-B09B-1BD47371253C",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "74",
+    event_number: 70,
+    timestamp: "1621241851761 ms",
+    data: {
+        "action" : "Home Page Button in ACPCOREIOSJS",
+        "contextdata" : {
+            "Home Page button" : "Home Page Button clicked in ACPCOREIOSJS"
+        }
+    }
+}
+2021-05-17 14:27:31.762502+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #70 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:31.768285+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #71 - {
+    class: "Event",
+    name: "HomePage button click Event",
+    uniqueIdentifier: "81CC2C48-196B-4751-8F5D-7F66711127B5",
+    source: "HomePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "75",
+    event_number: 71,
+    timestamp: "1621241851768 ms",
+    data: {
+        "1" : "Homepage details"
+    }
+}
+2021-05-17 14:27:31.768518+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #71 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:31.773025+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:31.773138+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #72 - {
+    class: "Event",
+    name: "HomePage button click Event",
+    uniqueIdentifier: "12CF2BF6-4B10-4BFD-9B5F-FBD4D7101F35",
+    source: "HomePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "76",
+    event_number: 72,
+    timestamp: "1621241851772 ms",
+    data: {
+        "1" : "Homepage details"
+    }
+}
+2021-05-17 14:27:31.773377+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #72 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:31.774006+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #73 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "8BE087FC-481B-43BF-9BB1-43D142E5A5FA",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "77",
+    event_number: 73,
+    timestamp: "1621241851772 ms",
+    data: {
+        "contextdata" : {
+            "key1" : "Home page button click in ACPCOREIOSJS",
+            "key2" : "Home page button click in ACPCOREIOSJS"
+        },
+        "state" : "Home Page landing page in ACPCOREIOSJS"
+    }
+}
+2021-05-17 14:27:31.774254+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #73 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:33.781249+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:33.781509+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #74 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "42A3A00D-312C-490E-A7DC-3B093B525C97",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "78",
+    event_number: 74,
+    timestamp: "1621241853781 ms",
+    data: {
+        "action" : "Profile  Page Button in ACPCOREIOSJS",
+        "contextdata" : {
+            "Profile Page button" : "ProfilePage Button clicked in ACPCOREIOSJS"
+        }
+    }
+}
+2021-05-17 14:27:33.781777+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #74 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:33.787156+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:33.787185+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #75 - {
+    class: "Event",
+    name: "ProfilePage button click Event",
+    uniqueIdentifier: "2F754BE4-76EB-4B63-96AE-BC69ADA26E52",
+    source: "ProfilePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "79",
+    event_number: 75,
+    timestamp: "1621241853786 ms",
+    data: {
+        "2" : "ProfilePage details"
+    }
+}
+2021-05-17 14:27:33.787507+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #75 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:33.788071+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #76 - {
+    class: "Event",
+    name: "ProfilePage button click Event",
+    uniqueIdentifier: "F459FADB-9155-426A-8161-2C473ADF8BAB",
+    source: "ProfilePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "80",
+    event_number: 76,
+    timestamp: "1621241853787 ms",
+    data: {
+        "2" : "ProfilePage details"
+    }
+}
+2021-05-17 14:27:33.788328+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #76 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:33.789052+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #77 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "B575A526-ADEA-480E-B23C-42F39AD8D24F",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "81",
+    event_number: 77,
+    timestamp: "1621241853787 ms",
+    data: {
+        "contextdata" : {
+            "key1" : "Profile page button click in ACPCOREIOSJS",
+            "key2" : "Profile page button click in ACPCOREIOSJS"
+        },
+        "state" : "Profile Page landing page in ACPCOREIOSJS"
+    }
+}
+2021-05-17 14:27:33.789310+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #77 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:35.468312+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:35.468591+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #78 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "F91591A5-2E36-4961-9493-F60F6DF73EFB",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "82",
+    event_number: 78,
+    timestamp: "1621241855468 ms",
+    data: {
+        "action" : "Home Page Button in ACPCOREIOSJS",
+        "contextdata" : {
+            "Home Page button" : "Home Page Button clicked in ACPCOREIOSJS"
+        }
+    }
+}
+2021-05-17 14:27:35.468876+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #78 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:35.469350+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #79 - {
+    class: "Event",
+    name: "HomePage button click Event",
+    uniqueIdentifier: "C9586254-D93F-4BE5-8547-5806FFB97F1C",
+    source: "HomePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "83",
+    event_number: 79,
+    timestamp: "1621241855468 ms",
+    data: {
+        "1" : "Homepage details"
+    }
+}
+2021-05-17 14:27:35.469518+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #79 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:35.474113+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:35.474184+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #80 - {
+    class: "Event",
+    name: "HomePage button click Event",
+    uniqueIdentifier: "A4F7641D-28F9-44DC-8D81-B5BD636D883C",
+    source: "HomePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "84",
+    event_number: 80,
+    timestamp: "1621241855473 ms",
+    data: {
+        "1" : "Homepage details"
+    }
+}
+2021-05-17 14:27:35.474408+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #80 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:35.474963+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #81 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "4E387538-C32A-4DA2-9349-19FD4BF90120",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "85",
+    event_number: 81,
+    timestamp: "1621241855474 ms",
+    data: {
+        "contextdata" : {
+            "key1" : "Home page button click in ACPCOREIOSJS",
+            "key2" : "Home page button click in ACPCOREIOSJS"
+        },
+        "state" : "Home Page landing page in ACPCOREIOSJS"
+    }
+}
+2021-05-17 14:27:35.475195+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #81 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:37.190986+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:37.191307+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #82 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "FAF29A2C-1068-4730-B5AB-06D5993B48F2",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "86",
+    event_number: 82,
+    timestamp: "1621241857190 ms",
+    data: {
+        "action" : "Profile  Page Button in ACPCOREIOSJS",
+        "contextdata" : {
+            "Profile Page button" : "ProfilePage Button clicked in ACPCOREIOSJS"
+        }
+    }
+}
+2021-05-17 14:27:37.191529+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #82 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:37.192027+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #83 - {
+    class: "Event",
+    name: "ProfilePage button click Event",
+    uniqueIdentifier: "EDC50C24-5B05-4B4A-AE60-ABF17D782417",
+    source: "ProfilePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "87",
+    event_number: 83,
+    timestamp: "1621241857191 ms",
+    data: {
+        "2" : "ProfilePage details"
+    }
+}
+2021-05-17 14:27:37.192227+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #83 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:37.195781+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:37.195988+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #84 - {
+    class: "Event",
+    name: "ProfilePage button click Event",
+    uniqueIdentifier: "56251A63-F743-4BBE-9A45-7B7A0AFE50BA",
+    source: "ProfilePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "88",
+    event_number: 84,
+    timestamp: "1621241857195 ms",
+    data: {
+        "2" : "ProfilePage details"
+    }
+}
+2021-05-17 14:27:37.196289+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #84 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:37.196815+0530 ACPCoreIOSJS[89507:1871651] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #85 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "8D51EC41-D485-4863-BE27-C5AFFA1A3CB6",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "89",
+    event_number: 85,
+    timestamp: "1621241857195 ms",
+    data: {
+        "contextdata" : {
+            "key1" : "Profile page button click in ACPCOREIOSJS",
+            "key2" : "Profile page button click in ACPCOREIOSJS"
+        },
+        "state" : "Profile Page landing page in ACPCOREIOSJS"
+    }
+}
+2021-05-17 14:27:37.197037+0530 ACPCoreIOSJS[89507:1871651] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #85 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:38.785140+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:38.785415+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #86 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "3B8147F6-0E9B-4591-ADBC-9A1AE96EA393",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "90",
+    event_number: 86,
+    timestamp: "1621241858785 ms",
+    data: {
+        "action" : "Home Page Button in ACPCOREIOSJS",
+        "contextdata" : {
+            "Home Page button" : "Home Page Button clicked in ACPCOREIOSJS"
+        }
+    }
+}
+2021-05-17 14:27:38.785695+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #86 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:38.786252+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #87 - {
+    class: "Event",
+    name: "HomePage button click Event",
+    uniqueIdentifier: "FD79441B-8687-4E7C-A27C-3D0B4F7FDB90",
+    source: "HomePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "91",
+    event_number: 87,
+    timestamp: "1621241858785 ms",
+    data: {
+        "1" : "Homepage details"
+    }
+}
+2021-05-17 14:27:38.786493+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #87 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:38.790033+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:38.790223+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #88 - {
+    class: "Event",
+    name: "HomePage button click Event",
+    uniqueIdentifier: "0893AD19-2BF2-40C1-913A-6C90F1A0141F",
+    source: "HomePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "92",
+    event_number: 88,
+    timestamp: "1621241858789 ms",
+    data: {
+        "1" : "Homepage details"
+    }
+}
+2021-05-17 14:27:38.790533+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #88 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:38.791095+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #89 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "BB5F9365-D28E-4D8C-BB2C-9A1BCE6AED32",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "93",
+    event_number: 89,
+    timestamp: "1621241858789 ms",
+    data: {
+        "contextdata" : {
+            "key1" : "Home page button click in ACPCOREIOSJS",
+            "key2" : "Home page button click in ACPCOREIOSJS"
+        },
+        "state" : "Home Page landing page in ACPCOREIOSJS"
+    }
+}
+2021-05-17 14:27:38.791307+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #89 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:40.633952+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:40.634299+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #90 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "BBA3AFED-C7C2-4213-A92C-5A44A236289D",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "94",
+    event_number: 90,
+    timestamp: "1621241860633 ms",
+    data: {
+        "action" : "Profile  Page Button in ACPCOREIOSJS",
+        "contextdata" : {
+            "Profile Page button" : "ProfilePage Button clicked in ACPCOREIOSJS"
+        }
+    }
+}
+2021-05-17 14:27:40.634556+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #90 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:40.635204+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #91 - {
+    class: "Event",
+    name: "ProfilePage button click Event",
+    uniqueIdentifier: "7D768D8C-5D6D-481A-BFF8-DAC23C28533B",
+    source: "ProfilePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "95",
+    event_number: 91,
+    timestamp: "1621241860634 ms",
+    data: {
+        "2" : "ProfilePage details"
+    }
+}
+2021-05-17 14:27:40.635522+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #91 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:40.638875+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:40.638973+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #92 - {
+    class: "Event",
+    name: "ProfilePage button click Event",
+    uniqueIdentifier: "F01322D5-2A19-4A6C-965D-FF03E076BA83",
+    source: "ProfilePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "96",
+    event_number: 92,
+    timestamp: "1621241860638 ms",
+    data: {
+        "2" : "ProfilePage details"
+    }
+}
+2021-05-17 14:27:40.639216+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #92 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:40.639824+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #93 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "7EC36CAD-D7AF-451C-A68B-CE3EB9526A22",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "97",
+    event_number: 93,
+    timestamp: "1621241860638 ms",
+    data: {
+        "contextdata" : {
+            "key1" : "Profile page button click in ACPCOREIOSJS",
+            "key2" : "Profile page button click in ACPCOREIOSJS"
+        },
+        "state" : "Profile Page landing page in ACPCOREIOSJS"
+    }
+}
+2021-05-17 14:27:40.640059+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #93 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:42.313761+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:42.314041+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #94 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "A2C2D773-CBE3-460E-9B87-4038DC0C92DB",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "98",
+    event_number: 94,
+    timestamp: "1621241862313 ms",
+    data: {
+        "action" : "Home Page Button in ACPCOREIOSJS",
+        "contextdata" : {
+            "Home Page button" : "Home Page Button clicked in ACPCOREIOSJS"
+        }
+    }
+}
+2021-05-17 14:27:42.314347+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #94 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:42.315011+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #95 - {
+    class: "Event",
+    name: "HomePage button click Event",
+    uniqueIdentifier: "DC468126-E3BE-433B-8650-2405D6877CFF",
+    source: "HomePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "99",
+    event_number: 95,
+    timestamp: "1621241862314 ms",
+    data: {
+        "1" : "Homepage details"
+    }
+}
+2021-05-17 14:27:42.315290+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #95 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:42.318461+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:42.318689+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #96 - {
+    class: "Event",
+    name: "HomePage button click Event",
+    uniqueIdentifier: "E411011D-5229-4FC5-A002-9DC98981636B",
+    source: "HomePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "100",
+    event_number: 96,
+    timestamp: "1621241862318 ms",
+    data: {
+        "1" : "Homepage details"
+    }
+}
+2021-05-17 14:27:42.318964+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #96 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:42.319566+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #97 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "52CC45DC-CA5F-4F6A-8A72-1DE80ECF23A6",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "101",
+    event_number: 97,
+    timestamp: "1621241862318 ms",
+    data: {
+        "contextdata" : {
+            "key1" : "Home page button click in ACPCOREIOSJS",
+            "key2" : "Home page button click in ACPCOREIOSJS"
+        },
+        "state" : "Home Page landing page in ACPCOREIOSJS"
+    }
+}
+2021-05-17 14:27:42.319809+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #97 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:44.300962+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:44.301319+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #98 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "D1D9C047-19CE-45C0-81BA-AF26239AE296",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "102",
+    event_number: 98,
+    timestamp: "1621241864300 ms",
+    data: {
+        "action" : "Profile  Page Button in ACPCOREIOSJS",
+        "contextdata" : {
+            "Profile Page button" : "ProfilePage Button clicked in ACPCOREIOSJS"
+        }
+    }
+}
+2021-05-17 14:27:44.301600+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #98 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:44.304976+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:44.305061+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #99 - {
+    class: "Event",
+    name: "ProfilePage button click Event",
+    uniqueIdentifier: "4EF11612-2A55-40E2-B62C-7135AC079AAD",
+    source: "ProfilePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "103",
+    event_number: 99,
+    timestamp: "1621241864304 ms",
+    data: {
+        "2" : "ProfilePage details"
+    }
+}
+2021-05-17 14:27:44.305360+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #99 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:44.305912+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #100 - {
+    class: "Event",
+    name: "ProfilePage button click Event",
+    uniqueIdentifier: "C561A498-5AA6-44E9-A9B9-B9DFEFBF3864",
+    source: "ProfilePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "104",
+    event_number: 100,
+    timestamp: "1621241864304 ms",
+    data: {
+        "2" : "ProfilePage details"
+    }
+}
+2021-05-17 14:27:44.306096+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #100 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:44.306636+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #101 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "292E56A1-25E3-4BC7-B163-49249C38647E",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "105",
+    event_number: 101,
+    timestamp: "1621241864304 ms",
+    data: {
+        "contextdata" : {
+            "key1" : "Profile page button click in ACPCOREIOSJS",
+            "key2" : "Profile page button click in ACPCOREIOSJS"
+        },
+        "state" : "Profile Page landing page in ACPCOREIOSJS"
+    }
+}
+2021-05-17 14:27:44.306835+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #101 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:45.795483+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:45.795716+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #102 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "3C6ACB4A-A4AC-401C-9BCE-1CA90C5E9FBD",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "106",
+    event_number: 102,
+    timestamp: "1621241865795 ms",
+    data: {
+        "action" : "Home Page Button in ACPCOREIOSJS",
+        "contextdata" : {
+            "Home Page button" : "Home Page Button clicked in ACPCOREIOSJS"
+        }
+    }
+}
+2021-05-17 14:27:45.796033+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #102 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:45.796527+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #103 - {
+    class: "Event",
+    name: "HomePage button click Event",
+    uniqueIdentifier: "BFC0A810-8A63-477F-8704-97B6A06BDF8A",
+    source: "HomePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "107",
+    event_number: 103,
+    timestamp: "1621241865796 ms",
+    data: {
+        "1" : "Homepage details"
+    }
+}
+2021-05-17 14:27:45.796714+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #103 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:45.801022+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:45.801183+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #104 - {
+    class: "Event",
+    name: "HomePage button click Event",
+    uniqueIdentifier: "A0A4F253-3FD6-48D1-A1D4-19EAE5E2AA4C",
+    source: "HomePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "108",
+    event_number: 104,
+    timestamp: "1621241865800 ms",
+    data: {
+        "1" : "Homepage details"
+    }
+}
+2021-05-17 14:27:45.801456+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #104 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:45.802304+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #105 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "1B586744-A082-46A4-B887-0762F1162B7F",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "109",
+    event_number: 105,
+    timestamp: "1621241865800 ms",
+    data: {
+        "contextdata" : {
+            "key1" : "Home page button click in ACPCOREIOSJS",
+            "key2" : "Home page button click in ACPCOREIOSJS"
+        },
+        "state" : "Home Page landing page in ACPCOREIOSJS"
+    }
+}
+2021-05-17 14:27:45.802602+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #105 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:47.366497+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:47.366679+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #106 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "5072A105-08C7-4BA2-8F20-44CDD0EA38E1",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "110",
+    event_number: 106,
+    timestamp: "1621241867366 ms",
+    data: {
+        "action" : "Profile  Page Button in ACPCOREIOSJS",
+        "contextdata" : {
+            "Profile Page button" : "ProfilePage Button clicked in ACPCOREIOSJS"
+        }
+    }
+}
+2021-05-17 14:27:47.366984+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #106 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:47.367632+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #107 - {
+    class: "Event",
+    name: "ProfilePage button click Event",
+    uniqueIdentifier: "F6677B14-9F15-4860-A536-C91C224C7D4C",
+    source: "ProfilePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "111",
+    event_number: 107,
+    timestamp: "1621241867367 ms",
+    data: {
+        "2" : "ProfilePage details"
+    }
+}
+2021-05-17 14:27:47.367845+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #107 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:47.372077+0530 ACPCoreIOSJS[89507:1869703] [AdobeExperienceSDK TRACE <Core>]: GENERIC_TRACK request event was dispatched: AnalyticsTrack
+2021-05-17 14:27:47.372216+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #108 - {
+    class: "Event",
+    name: "ProfilePage button click Event",
+    uniqueIdentifier: "45BED83E-1079-4564-A004-E60E700A8E93",
+    source: "ProfilePage",
+    type: "button click",
+    pair_id: "",
+    response_pair_id: "112",
+    event_number: 108,
+    timestamp: "1621241867371 ms",
+    data: {
+        "2" : "ProfilePage details"
+    }
+}
+2021-05-17 14:27:47.372517+0530 ACPCoreIOSJS[89507:1871645] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #108 (button click) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
+2021-05-17 14:27:47.373169+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Processing Event #109 - {
+    class: "Event",
+    name: "AnalyticsTrack",
+    uniqueIdentifier: "DC52F392-5BAA-46F0-93D9-45BCDDDE4656",
+    source: "com.adobe.eventSource.requestContent",
+    type: "com.adobe.eventType.generic.track",
+    pair_id: "",
+    response_pair_id: "113",
+    event_number: 109,
+    timestamp: "1621241867372 ms",
+    data: {
+        "contextdata" : {
+            "key1" : "Profile page button click in ACPCOREIOSJS",
+            "key2" : "Profile page button click in ACPCOREIOSJS"
+        },
+        "state" : "Profile Page landing page in ACPCOREIOSJS"
+    }
+}
+2021-05-17 14:27:47.373462+0530 ACPCoreIOSJS[89507:1871649] [AdobeExperienceSDK TRACE <EventHub(AMSEventHub)>]: Event #109 (com.adobe.eventType.generic.track) resulted in 0 consequence events.  Time in rules was 0 milliseconds.
